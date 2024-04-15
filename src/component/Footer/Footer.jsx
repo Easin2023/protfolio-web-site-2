@@ -32,7 +32,7 @@ const Footer = () => {
           <span>Instagram</span>
           <FaArrowRightLong />
         </a>
-        <a className="btn rounded-full hover:bg-[#358dff] hover:text-white bg-white text-black">
+        <a href="https://twitter.com/Easin_Arafa" className="btn rounded-full hover:bg-[#358dff] hover:text-white bg-white text-black">
           <BsTwitterX />
           <span>Twitter</span>
           <FaArrowRightLong />
