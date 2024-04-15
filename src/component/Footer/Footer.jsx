@@ -25,7 +25,7 @@ const Footer = () => {
           <FaArrowRightLong />
         </a>
         <a
-          href=""
+          href="https://www.instagram.com/easi_arafat_khan/"
           className="btn rounded-full hover:bg-[#358dff] hover:text-white bg-white text-black"
         >
           <IoLogoInstagram />
