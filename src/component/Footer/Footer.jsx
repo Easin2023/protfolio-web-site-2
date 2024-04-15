@@ -16,12 +16,18 @@ const Footer = () => {
       </h1>
       <hr className="mt-10"></hr>
       <div className="flex gap-4 my-10 justify-center">
-        <a href="https://github.com/Easin2023" className="btn rounded-full hover:bg-[#358dff] hover:text-white bg-white text-black">
+        <a
+          href="https://github.com/Easin2023"
+          className="btn rounded-full hover:bg-[#358dff] hover:text-white bg-white text-black"
+        >
           <FaGithub />
           <span>Github</span>
           <FaArrowRightLong />
         </a>
-        <a className="btn rounded-full hover:bg-[#358dff] hover:text-white bg-white text-black">
+        <a
+          href=""
+          className="btn rounded-full hover:bg-[#358dff] hover:text-white bg-white text-black"
+        >
           <IoLogoInstagram />
           <span>Instagram</span>
           <FaArrowRightLong />
@@ -31,7 +37,10 @@ const Footer = () => {
           <span>Twitter</span>
           <FaArrowRightLong />
         </a>
-        <a className="btn rounded-full hover:bg-[#358dff] hover:text-white bg-white text-black">
+        <a
+          href="https://www.facebook.com/profile.php?id=100072451573313"
+          className="btn rounded-full hover:bg-[#358dff] hover:text-white bg-white text-black"
+        >
           <IoLogoFacebook />
           <span>Facebook</span>
           <FaArrowRightLong />
