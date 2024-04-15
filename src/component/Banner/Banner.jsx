@@ -1,8 +1,14 @@
 import React from "react";
 import { ImCloudDownload } from "react-icons/im";
 import { IoArrowDownOutline } from "react-icons/io5";
+import Resume from '../../assets/Full-Stack_Resume.pdf';
 
 const Banner = () => {
+  // const downloadFile = () => {
+  //   window.location.href =
+  //     "https://drive.google.com/file/d/1XZVEc_nPJaeMM90QG60wjnn2UJbbTiDv/view?usp=sharing";
+  // };
+
   return (
     <div className="flex gap-10 mt-24 ml-32">
       <div>
@@ -26,9 +32,13 @@ const Banner = () => {
           your next projects.
         </p>
         <div className="flex items-center gap-12 mt-14">
-          <button className="btn w-44 text-xl rounded-full bg-[#358dff] text-white hover:bg-white hover:text-black">
+          <a
+            // onClick={downloadFile}
+            download="resume" href={Resume}
+            className="btn w-44 text-xl rounded-full bg-[#358dff] text-white hover:bg-white hover:text-black"
+          >
             Resume <ImCloudDownload />
-          </button>
+          </a>
           <div className="flex items-center gap-3">
             <h1 className="border-2 border-black flex rounded-t-full rounded-b-full w-10 justify-center items-center h-16">
               <IoArrowDownOutline size={25} />
@@ -40,7 +50,9 @@ const Banner = () => {
         </div>
         <div className="flex items-center gap-2 mt-12">
           <h1 className="text-6xl text-black font-bold">W.</h1>
-          <h1 className="font-bold">Award Winner <br /> Nominee</h1>
+          <h1 className="font-bold">
+            Award Winner <br /> Nominee
+          </h1>
         </div>
       </div>
     </div>
