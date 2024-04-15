@@ -1,0 +1,32 @@
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+}
+
+.circle-black {
+  background-color: white;
+}
+
+.vline {
+  border-left: 3px solid white;
+  height: 150px;
+}
+.vline1 {
+  border-left: 3px solid #3B82F6;
+  height: 150px;
+}
+
+.circle1{
+     border-radius: 50%;
+     width: 15px;
+     height: 15px;
+     background-color: #3B82F6;
+}
