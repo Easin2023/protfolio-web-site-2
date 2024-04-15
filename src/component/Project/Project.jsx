@@ -3,7 +3,7 @@ import { FaGithub, FaLongArrowAltRight } from "react-icons/fa";
 
 const Project = () => {
   return (
-    <div className="mb-60">
+    <div id="section4" className="mb-36">
       <div className="flex justify-between">
         <div className="ml-32">
           <h1 className="text-6xl text-black font-family-5">

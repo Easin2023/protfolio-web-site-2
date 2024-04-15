@@ -1,4 +1,6 @@
 import React from "react";
+import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -26,48 +28,76 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
+              <Link>
+                <li>
+                  <a>Home</a>
+                </li>
+              </Link>
+              <Link>
+                <li>
+                  <a>About me</a>
+                </li>
+              </Link>
+              <Link>
+                <li>
+                  <a href="">Service</a>
+                </li>
+              </Link>
+              <Link>
+                <li>
+                  <a href="">Work</a>
+                </li>
+              </Link>
+              <Link>
+                <li>
+                  <a href="">Blog</a>
+                </li>
+              </Link>
+            </ul>
+          </div>
+          <a className=" text-3xl font-family-5">Easin Arafat</a>
+        </div>
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal px-1 text-[16px]">
+            <Link to="section1" smooth={true} duration={500}>
               <li>
                 <a>Home</a>
               </li>
+            </Link>
+            <Link to="section2" smooth={true} duration={500}>
               <li>
-                <a>About me</a>
+                <a>About Me</a>
               </li>
+            </Link>
+            <Link to="section3" smooth={true} duration={500}>
               <li>
                 <a href="">Service</a>
               </li>
+            </Link>
+            <Link to="section4" smooth={true} duration={500}>
               <li>
                 <a href="">Work</a>
               </li>
+            </Link>
+            {/* <Link to="section5" smooth={true} duration={500}>
               <li>
                 <a href="">Blog</a>
               </li>
-            </ul>
-          </div>
-          <a className="btn btn-ghost text-xl">Easin Arafat</a>
-        </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>About me</a>
-            </li>
-            <li>
-              <a href="">Service</a>
-            </li>
-            <li>
-              <a href="">Work</a>
-            </li>
-            <li>
-              <a href="">Blog</a>
-            </li>
+            </Link> */}
+            <Link to="section5" smooth={true} duration={500}>
+              <li>
+                <a href="">Hir To UpWork</a>
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn rounded-full bg-black text-white hover:bg-white hover:text-black shadow-lg">
-            Contact Me
-          </a>
+          <Link to="section6" smooth={true} duration={500}>
+            <a className="btn rounded-full bg-black text-white hover:bg-white hover:text-black shadow-lg">
+              Contact Me
+              <FaArrowRightLong />
+            </a>
+          </Link>
         </div>
       </div>
     </div>

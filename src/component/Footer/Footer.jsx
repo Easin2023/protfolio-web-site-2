@@ -6,7 +6,7 @@ import { IoLogoFacebook, IoLogoInstagram } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className="">
+    <div id="section6" className="">
       <h1 className="text-6xl text-black font-family-5 mt-32 text-center">
         INTERESTED IN WORKING <br /> TOGETHER?
       </h1>

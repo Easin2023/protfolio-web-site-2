@@ -2,7 +2,7 @@ import React from "react";
 import "./WorkProcess.css";
 const WorkProcess = () => {
   return (
-    <div className="bg-black mb-48 mt-24">
+    <div id="section3" className="bg-black mb-48 mt-24">
       <h1 className="uppercase text-6xl font-family-5 text-white text-center py-24">
         My Work Process
       </h1>

@@ -3,7 +3,7 @@ import "./About.css";
 
 const AboutMe = () => {
   return (
-    <div className="mt-44 ">
+    <div id="section2" className="mt-44 ">
       <h1 className="uppercase text-6xl font-family-5 text-black ml-28">
         about me
       </h1>
